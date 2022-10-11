@@ -1,0 +1,397 @@
+/* ------header part---- */
+.bg-img{
+    /* The image used */
+    
+    height: auto; 
+    width: 100%; 
+    
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;  
+}
+
+/* -------------------NAV STYLES------------------------- */
+
+.navbar-brand{
+    text-align: center;
+    padding-left: 492px;
+    position: relative;
+}
+#div-nav{
+    margin-top: -475px;
+    padding: 60px;
+    position: relative;
+}
+#logo{
+    text-align: center;
+    margin-top: -723px;
+    
+} 
+
+.active {
+    background-color: #5e34069f;
+  } 
+  
+  .dropdown {
+
+    float: left;
+    overflow: hidden;
+
+  }
+  .navbar a {
+    float: left;
+    /* padding: 12px; */
+    color: rgb(25, 20, 20);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .navbar a:hover {
+    color: rgb(149, 144, 5);
+    
+  }
+
+  .navbar{
+ 
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;   
+    
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;  
+    position: relative;
+    padding-inline: 40px;
+}
+#contact-btn{
+    background-color: peru;
+    color: white;
+    width: 115px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    
+}
+/* ----RIGHT NAV------------------------------------------- */
+  .right-nav{
+
+    /* float: right; */
+    /* padding-in.line: 100px; */
+    color: rgb(25, 20, 20);
+    text-decoration: none;
+    font-size: 14px;
+    text-align: right;
+    padding-left: 315px;
+  }
+   
+
+  #search-icon{
+    padding: 10px;
+}
+
+#input-search {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+}
+#input-search a:hover {
+    color: rgb(70, 37, 233);
+    
+  }
+  /* --------------MENU-------------------------------------- */
+  #menu-div{
+      padding: 10px;
+  }
+  #menu-div-bar{
+      width: 35px;
+      height: 3px;
+      background-color: black;
+      margin: 6px 0;
+  }
+/* -----content styles-------------- */
+#rate-link a:hover{
+    color:skyblue
+}
+#rate-link{
+    color:#fcfbfb;
+   padding-left: 520px;
+   margin-top: 20px;
+
+}
+#arrowup{
+    color:#fcfbfb;
+   /* padding-left: 40px; */
+}
+#hero-lines{
+    font-family: 'Amita', sans-serif;
+    font-size: xx-large;                                           
+    text-align: center;
+    text-decoration: dashed;
+    color: #fcfbfb;
+    margin-top: 10px;
+}
+/* ----------cards----------- */
+.cards{
+    /* padding: 5px; */
+    width: 20px;
+}
+/* #cards-style{
+    padding-top: 5px;
+} */
+.row{
+    width: max-content;
+    padding-inline: 30px;
+}
+#card-body{
+    font-size: small;
+    border-radius: 25%;
+}
+#card-left{
+    text-align: left;
+}
+#card-right{
+    text-align: right;
+    padding-top: -4px;
+}
+#cards-container{
+    padding:20px ;
+    margin-top: -195px;
+}
+#prev,#next{
+    padding-top:500px ;
+
+}
+/* ----------------------portfolio gallery filter--------- */
+.Portfolio {
+    position: relative;
+    margin: 5px;
+    border: 2px solid rgb(240, 237, 237);
+    float: left;
+    width: 250px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    animation: winanim 0.5s ;
+-webkit-backface-visibility:visible;
+    backface-visibility:visible;
+    box-shadow:0 3px 5px -1px rgba(253, 253, 253, 0.2),0 5px 8px 0 rgba(0,0,0,.14),0 1px 14px 0 rgba(0,0,0,.12)
+}
+
+.Portfolio:hover {
+    box-shadow: 0 12px 16px 0 rgba(249, 236, 236, 0.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+.Portfolio img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px
+}
+
+.desc {
+    padding: 5px;
+    text-align: center;
+    font-size: 90%;
+    background:black;
+    color:peru
+}
+
+.nav {
+    padding:20px;
+    padding-left:663px;
+    margin-top:-30px;
+}
+
+.nav li a { 
+    margin:3px;
+    padding: 9px 9px; 
+    font-size:16px; 
+    color:peru; 
+    background: #000;
+    transition-duration: 0.4s;
+}
+/* .nav a:hover { 
+    background:peru; 
+} */
+.nav .active { 
+    background-color:peru !important;
+    color:#fff;
+}
+
+@keyframes winanim {
+    0%{opacity:0;transform:scale3d(.3,.3,.3)}
+    50%{opacity:1}
+    
+}
+#product-head{
+    padding-left: 10px;
+    font-family: 'Amita', sans-serif;
+    font-size: xx-large;  
+    padding-top: 350px;
+   /* width: fit-content; */
+}
+#pills-tab{
+    margin-top: -169px;
+}
+#pic-div{
+    font-family: 'Amita', sans-serif;
+    font-size: xx-large;
+    margin-top: 400px;
+
+}
+
+/* ----body image part------- */
+#body-img{
+    width: 100%;
+}
+/* ------grid ------ */
+#grid-div{
+    padding-top: 10px;
+   
+}
+#about-para1{
+    padding-left: 30px;
+    padding-top: 100px;
+    text-align: left;
+
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;  
+    color: rgb(16, 14, 14);
+}
+#about-para2{
+    margin-left: 10px;
+    padding-top: 100px;
+    text-align: left;
+
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;  
+    color: rgb(16, 14, 14);
+    font-weight: 300;
+}
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
+.pos{
+    position: relative;
+    top: 240px;
+}
+.view-btn{
+    background-color: peru;
+    color: white;
+    width: 220px;
+    font-size: 14px;
+    padding-left: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+.view-btn button:hover{
+    color: cornflowerblue;
+
+}
+/* #row-para{
+    width: 100px;
+} */
+/* ----------------------for footer div image-------------------- */
+.enquire-btn{
+    background-color: peru;
+    color: white;
+    width: 150px;
+    font-size: 14px;
+   
+    margin-left: 547px;
+    border-radius: 25px;
+    width: max-content;
+}
+    
+.enquire-btn button:hover{
+    color: cornflowerblue;
+
+}
+#footer-para-div{
+    font-family: 'Amita', sans-serif;
+    font-size: xx-large;                                           
+    text-align: center;
+    text-decoration: dashed;
+    color: #f7f3f3;
+    margin-top: -217px;
+    padding-left: 109px;
+    width: 100%;
+}
+
+
+/* -----footer----------- */
+/* #div-nav-footer{
+    width:100%;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 405px;
+   
+} */
+    
+.footer-nav{
+    float: right;
+    /* padding-inline: px; */
+    
+    color: rgb(25, 20, 20);
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: 10px;
+    
+  }
+#hr-lines{
+    margin-top: 06px;
+    color: rgb(46, 39, 39);
+    border-top: 3px;
+    width: 100%; ;
+}
+#hr-lines2{
+    /* margin-top: 06px; */
+    color: rgb(46, 39, 39);
+    border-top: 1px;
+    width: 100%; 
+    /* margin-left: 5px; */
+}
+/* #logo-foot{
+    margin-top: 3px;
+    width: 300px;
+    padding-left: 80px;
+} */
+#footer-logo-div{
+    width: 100%;
+    margin-left: 00px;
+    margin-top: 76px;
+    text-align: center;
+   
+
+}
+#footer-icons{
+    /* text-align: center;
+    padding-inline: 3px; */
+    padding-left: 400px;
+}
+#icon-a{
+    color:white;
+    /* padding-top: 200px; */
+    /* margin-top: 200px; */
+    padding-inline:20px;
+    
+}
+#img-body{
+    text-align: center;
+    /* padding-left: 122px; */
+    width: 100%;
+    /* padding-top: 10px; */
+}
+#img-div2{
+padding-top: 10%;
+}
+/* ------------footer contact------ */
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
